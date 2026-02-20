@@ -1,0 +1,28 @@
+{
+  "name": "reponder",
+  "version": "1.0.0",
+  "description": "The best AI that rethinks and reponders!",
+  "main": "bin/index.js",
+  "type": "commonjs",
+  "bin": {
+    "reponder": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oreakt-ai/reponder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oreakt-ai/reponder/issues"
+  },
+  "homepage": "https://github.com/oreakt-ai/reponder#readme",
+  "dependencies": {
+    "openai": "^6.22.0"
+  }
+}
